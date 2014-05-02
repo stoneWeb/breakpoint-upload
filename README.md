@@ -22,7 +22,7 @@ breakpoint-upload
 	formData;      //@Object 提交到后端的附加参数 格式为json
 	fileMax;       //@Number 单个文件的大小限制 单位kb 默认2MB
 	fileSplitSize; //@Number 断点分割的文件块大小 单位bytes 默认1MB
-	dragElement;   //拖拽上传dom元素 可选
+	dragElement;   //@Object 拖拽上传dom元素 可选
 	selectBtn;     //@Object 选择文件的button, 必选项
 	listParent;    //@Object 用于展现项目列表元素父级element 必选项
 	onFileChange;  //@Function 获取file列表
